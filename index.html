@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="/assets/N.svg" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img
+          src="https://www.logo.wine/a/logo/Netflix/Netflix-Logo.wine.svg"
+          alt=""
+        />
+      </div>
+      <div class="navbar__browser">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Series</a></li>
+          <li><a href="#">Películas</a></li>
+          <li><a href="#">Novedades populares</a></li>
+          <li><a href="#milista">Mi lista</a></li>
+          <li><a href="#">Explora por idiomas</a></li>
+        </ul>
+      </div>
+      <div class="navbar__menu">
+        <div class="navbar__menu__search">
+          <div class="search__list__container" id="searchListContainer">
+            <ul id="searchList"><li>Hola</li></ul>
+          </div>
+          <input type="text" id="searchInput">
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </div>
+        <i class="fa-solid fa-gift"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-regular fa-face-grin-wink"></i>
+      </div>
+      <div class="navbar__menu__mobile">
+        <i class="fa-regular fa-face-grin-wink"></i>
+        <div class="navbar__menu__mobile__list">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-gift"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+      </div>
+    </nav>
+    <header class="header">
+      <video src="/assets/vidio.mp4" autoplay muted></video>
+      <div class="header__information">
+        <div class="header__information__type">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2015_N_logo.svg"
+            alt="N_de_netflix"
+          />
+          <h2>Pelicula</h2>
+        </div>
+        <div class="header__information__text">
+          <h1>TRANSFORMERS</h1>
+        </div>
+        <div class="header__information__actions">
+          <button>
+            <img src="https://img.icons8.com/sf-black-filled/64/null/play.png"/>
+            Reproducir
+          </button>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="32" height="32"
+            viewBox="0,0,256,256"
+            style="fill:#000000;">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M16,3c-7.16797,0 -13,5.83203 -13,13c0,7.16797 5.83203,13 13,13c7.16797,0 13,-5.83203 13,-13c0,-7.16797 -5.83203,-13 -13,-13zM16,5c6.08594,0 11,4.91406 11,11c0,6.08594 -4.91406,11 -11,11c-6.08594,0 -11,-4.91406 -11,-11c0,-6.08594 4.91406,-11 11,-11zM15,10v2h2v-2zM15,14v8h2v-8z"></path></g></g>
+            </svg>
+            Más información
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__section" id="milista">
+        <h2>Mi Lista</h2>
+        <div class="main__section__carousel">
+          <div class="main__section__carousel__card">
+            <img src="/assets/interestellar.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Interestellar</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/jw4.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>John Wick 4</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/gb.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Green Book</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/elpadrino.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>El Padrino</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/f1.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Drive to Survive</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/codigodavinci.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Inferno</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/diadelaindependencia.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Día de la Independencia</p>
+            </div>
+          </div>
+          <div class="main__section__carousel__card">
+            <img src="/assets/titanic.jpg" alt="Interestellar">
+            <div class="carousel__card__text">
+              <p>Titanic</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__socialmedia">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOElEQVR4nN2VMU4CQRSGEcR4DlpDbQI30MQQjGC4gPEASktoCBFPYCECegE7a0sOsOpq4hEEaj4zyRgnk7fzlsVG/mSb2e9//+68tzu53EYL2AGawAMQAQt7RXatYZisxY+Bd3TFQH2VwgVgwOq6AvJpArIU/1E/zbaE9AVcABWgBJSBR4+phRoa2vMlUBV8tx73JjbeTktIz97DnAFtYCqwJ1KAGbuQbhz2UmEnUsCLYuo67EhhIylgrpg6DnuvsHMpwHyhknbFqfj1PQmemQTGGQM+Bc+rBCa9dstMBbDnsPt27dSOr6+xFGDgtD2YKGxDCigCH38QEAPbSftZWzNgCRyFembM12sEDILFrXkr4Y/aUQL6xqsGOEUOvZ4kBRjmIHVh4fCpA0Pg3FnvAXf2XiFT8X+jb22Kfef0tLcPAAAAAElFTkSuQmCC">     
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO2UvQrCMBCAO7lYfSCpqF1t8XEEcZNifRuprlUfxuqu7p8EbiglPWvi6AeBkLvmu+YvCP64ACyAC/DiMybnDKRdJ89xJ+tSuQsjIJJ+ognMsrgQAWPpnzTBs2WCPTAB+tKmQNGS+9AENpZK/sr2wTeCvYz3gB1wAyo5CD2JHXwEE+Vk5RKb+QhCGTeVN7lLbPALQWWJXSU29BFMlSXaSiz2ERS1Tc7lT5qbfPQRGFZK/hoLLhftIKcllBbbKu9y0cyr6EupCdIfCOatApFkHpNv1MlrksS8isqe1DE55cfK/wQtvAGJl1RkrLoOqwAAAABJRU5ErkJggg==">        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAp0lEQVR4nO2VOw7CMAxAPXEH2p0b8jsAFK4FYmTgDEDvkOkhS0FFVeWSJt76pki2/GJZskVmUgAWwBloSecNNFrDEpzI52gJpvy8T2sJiiA5AulyH96CFXB3E3zx7GANLEsIArABqp7g7y7HBNvfuIegirGbt+AKXOK7LinYDeTtSwqCSuKQ61g8lBQkYwl05ebytAS6z3M5jB2cZmInLy1uHpwZGeADeOqTJivqAQAAAAAASUVORK5CYII=">        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABHUlEQVR4nO3UvStGUQDHcS89RGRgNPoHjBgloz+ARUb5G+QpZTJgs1EGm41V3gaZLAolg1IiA+Xto1NnkO557n2eZ5B6vtu955zf99xf556mpgb/DnSijEu84So+d6ANE5hPLV5Be074sWyC6CmK+7MWN+MdO+hOCMoq84p1zKZ2+BAnhl2MZIyH93lsoJQSrP6afIRpDMSOP3LCv0ITqYqDoAv7auc5GR4FCxjFYY2CizzBpvrYyhOEig7qEExWFERJC2YqnPcUd+E/KSLYxjVeklHZzOWGR0EvdqsM30NrIcEP0SCW8JkTfo6+oqGl+AVDWMRjgZ33FA0fx1nBSm4wFQ5EVbVE0TCWcYr7eCXf4gRrGAvXctXBDf6Mb7qxe/M/XCA6AAAAAElFTkSuQmCC">    
+      </div>
+      <div class="footer__info">
+        <ul>
+          <li>Audio y subtítulos</li>
+          <li>Descripción de audio</li>
+          <li>Centro de ayuda</li>
+          <li>Tarjetas de regalo</li>
+          <li>Zonas de prensa</li>
+          <li>Inversores</li>
+          <li>Empleo</li>
+          <li>Términos de uso</li>
+          <li>Privacidad</li>
+          <li>Avisos legales</li>
+          <li>Preferencia de cookies</li>
+          <li>Información corporativa</li>
+          <li>Contáctenos</li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <p>© 1993-2023 EmiFlix, Inc. { Datos sensibles }</p>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
