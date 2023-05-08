@@ -26,7 +26,10 @@ $lupa.addEventListener("click", (e) => {
       $listaDePeliculas.innerHTML = "";
       for (let i = 0; i < ARRMOVIES.length; i++) {
         const MOVIE = ARRMOVIES[i];
-        if (MOVIE.toLocaleLowerCase().includes($value.toLocaleLowerCase()) && $value != "") {
+        if (
+          MOVIE.toLocaleLowerCase().includes($value.toLocaleLowerCase()) &&
+          $value != ""
+        ) {
           let htmlMovie = d.createElement("li");
           htmlMovie.innerHTML = MOVIE;
           $listaDePeliculas.appendChild(htmlMovie);
